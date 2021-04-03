@@ -1,0 +1,215 @@
+* {
+    font-family: monospace, sans-serif;
+}
+
+:root {
+    --primary: #e1e8e0;
+    --secondary: rgb(74, 107, 124);
+    --alt: rgb(23, 42, 46);
+}
+
+main {
+    background-color: var(--alt);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: ridge;
+    background-color: var(--alt);
+    width: 100%;
+    padding: 1px;
+}
+
+header h1 {
+    font-size: 42px;
+    text-align: start;
+    color: var(--primary);
+    margin: 20px 0 10px 0;
+}
+
+h1 span {
+    color: var(--secondary)
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    padding-right: 10px;
+}
+
+.nav a:link {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav a:visited {
+    color: var(--primary);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../images/mountains.jpg");
+    border-bottom: ridge;
+    border-color: var(--primary);
+    border-width: 7px;
+    height: 475px;
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-card h2 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--alt);
+    margin-top: 90px;
+    
+}
+
+.about-me span {
+    color: var(--secondary);
+    margin: 0 0 0 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.about-me h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 95px 0 5px 40px;
+    font-size: 45px;
+    color: var(--primary);
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-style: solid;
+    border-radius: 10px 10px;
+    border-width: 5px;
+    border-color: var(--secondary);
+    width: 30%;
+    margin: 10px 0 0 20px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.about-me img {
+    display: block;
+    justify-content: center;
+    border-color: var(--secondary);
+    background-color: var(--alt);
+    padding: 5px;
+    border-radius: 60%;
+    margin: 100px 0 0 20px;
+    height: 145px;
+    width: 130px;
+}
+
+.contact-me h3 {
+    margin: 0 0 0 15px;
+
+}
+
+.contact-me {
+    float: right;
+    align-items: right;
+    color: var(--primary);
+    margin: 10px 20px 0 20px;
+    height: 20%;
+    font-size: 40px;
+    text-align: center;
+    border-left: ridge;
+    border-width: 7px;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 35px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin: 10px 0 0 45px;
+    padding: 10px;
+    border-style: solid;
+    border-color: var(--secondary);
+    border-width: 5px;
+    border-radius: 10px 10px;
+}
+
+.contact span {
+    color: var(--secondary);
+}
+
+.contact-me a:link {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    text-decoration: underline;
+}
+
+.contact-me a:visited {
+    color: var(--secondary);
+}
+
+.projects h4 {
+    text-align: center;
+    font-size: 45px;
+    color: var(--primary);
+    margin-top: 20px;
+}
+
+#img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    height: 350px;
+    width: 33%;
+}
+
+#img2 {
+    display: flex;
+    margin: 20px 0 0 450px;
+}
+
+#img3 {
+    float: right;
+    margin: 0 400px 400px 0;
+}
+
+footer {
+    text-align: center;
+    color: var(--primary);
+    background-color: var(--alt);
+    border-top: ridge;
+
+}
