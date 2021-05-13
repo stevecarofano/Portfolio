@@ -28,45 +28,65 @@
             </h2>
         </section>
         <!-- Tab links -->
-<div class="tab">
-    <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'About')">About Me</button>
-    <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
-    <button class="tablinks" onclick="openCity(event, 'Contact')">Contact Me</button>
-  </div>
-  
-  <!-- Tab content -->
-  <div id="About" class="tabcontent">
-    <h3>Hello!</h3>
-    <p>My name is Steve Carofano. I am a student at the University of Connecticut's full-stack development program.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum ducimus amet omnis? Recusandae eos, 
-        placeat distinctio quis culpa animi quam, natus labore officiis suscipit, fugiat laudantium alias consequatur aliquid?
-    </p>
-  </div>
-  
-  <div id="Projects" class="tabcontent">
-    <div class="portLinks">
-        <div class="aniFind">
-            <p>AniFind</p>
-            <a href="https://github.com/MBalasuriyar/Find-an-Anime-For-You"><img src="./assets/images/ani-find.png"></a>
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'About')">About Me</button>
+            <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Me</button>
         </div>
-        <div class="tracker">    
-        <p>Weather Tracker</p>
-            <a href="https://github.com/stevecarofano/Weather-Tracker"><img src="assets/images/weather-tracker.png"></a>
+
+        <!-- Tab content -->
+        <div id="About" class="tabcontent">
+            <h3>Hello!</h3>
+            <p>My name is Steve Carofano. I am currently a student enrolled in the University of Connecticut's
+                full-stack development program.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illum ducimus amet omnis? Recusandae
+                eos,
+                placeat distinctio quis culpa animi quam, natus labore officiis suscipit, fugiat laudantium alias
+                consequatur aliquid?
+            </p>
         </div>
-        <div class="scheduler">
-            <p>Work Day Scheduler</p>
-            <a href="https://stevecarofano.github.io/Weather-Tracker/"><img src="assets/images/scheduler.png"></a>
-        </div>        
-    </div>
-  </div>
-  
-  <div id="Contact" class="tabcontent">
-    
-    <p>Contact info</p>
-  </div>
+
+        <div id="Projects" class="tabcontent">
+            <div class="portLinks">
+                <div class="aniFind">
+                    <p>AniFind</p>
+                    <a href="https://mbalasuriyar.github.io/Find-an-Anime-For-You/"><img
+                            src="./assets/images/ani-find.png"></a>
+                    <a href="https://github.com/MBalasuriyar/Find-an-Anime-For-You">| Github Repo |</a>
+                </div>
+                <div class="tracker">
+                    <p>Weather Tracker</p>
+                    <a href="https://stevecarofano.github.io/Weather-Tracker/"><img
+                            src="assets/images/weather-tracker.png"></a>
+                    <a href="https://github.com/stevecarofano/Weather-Tracker">| Github Repo |</a>
+                </div>
+                <div class="scheduler">
+                    <p>Work Day Scheduler</p>
+                    <a href="https://stevecarofano.github.io/Work-Day-Planner/"><img
+                            src="assets/images/scheduler.png"></a>
+                    <a href="https://github.com/stevecarofano/Work-Day-Planner">| Github Repo |</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <div class="container">
+                <div class="gitContact">
+                    <a href="https://github.com/stevecarofano"><img src="./assets/images/clean-git.png"></a>
+                </div>
+                <div class="linkedIn">
+                    <a href="https://www.linkedin.com/in/steve-carofano-6708a6ba"><img
+                            src="./assets/images/Linkedin_icon.svg"></a>
+                </div>
+                <div class="gmail">
+                    <a href="mailto: stevencarofano@gmail.com"><img src="./assets/images/gmail.png"></a>
+                </div>
+            </div>
+        </div>
+
     </main>
     <footer>
-        <p>Made with HTML and CSS</p>
+        <p>Made with HTML, CSS, and JavaScript</p>
     </footer>
     <script src="./assets/script/script.js"></script>
 </body>

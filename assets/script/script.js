@@ -1,5 +1,5 @@
 
-function openCity(evt, linkTab) {
+function openTab(evt, linkTab) {
     var i, tabcontent, tablinks;
   
     tabcontent = document.getElementsByClassName("tabcontent");
