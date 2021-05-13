@@ -8,6 +8,10 @@
     --alt: rgb(23, 42, 46);
 }
 
+body {
+    background-color: var(--alt);
+}
+
 main {
     background-color: var(--alt);
 }
@@ -36,10 +40,11 @@ h1 span {
 }
 
 .nav ul {
-    display: flex;
-    justify-content: space-between;
+    text-align: right;
+    font-size: 25px;
     min-width: 300px;
     padding-right: 10px;
+    margin-right: 50px;
 }
 
 .nav a:link {
@@ -64,7 +69,6 @@ h1 span {
     flex-wrap: wrap;
     justify-content: center;
     background-image: url("../images/mountains.jpg");
-    border-bottom: ridge;
     border-color: var(--primary);
     border-width: 7px;
     height: 475px;
@@ -213,3 +217,87 @@ footer {
     border-top: ridge;
 
 }
+
+.tab {
+    text-align: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-color: var(--alt);
+    margin: 20px 0 10px 0;
+    
+  }
+
+  
+  .tab button {
+    color: var(--primary);
+    background-color: var(--alt);
+    border: 2px solid var(--primary);
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  
+  .tab button:hover {
+    color: black;
+    background-color: #ddd;
+  }
+  
+ 
+  .tab button.active {
+    color: black;
+    background-color: var(--primary);
+  }
+  
+  
+  .tabcontent {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 12px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: var(--primary);
+    border-radius: 10px 10px 10px 10px;
+    line-height: 25px;
+  }
+
+.portLinks {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+}
+
+.portLinks img {
+    padding: 5px 10px 5px 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.portLinks img:hover {
+    transition: transform .5s ease;
+    transform: scale(1.2);
+      
+}
+
+.aniFind {
+    display: flex;
+    flex-direction: column;
+}
+
+.tracker {
+    display: flex;
+    flex-direction: column;
+}
+
+.scheduler {
+    display: flex;
+    flex-direction: column;
+}
+
