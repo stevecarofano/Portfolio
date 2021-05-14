@@ -7,7 +7,11 @@ a brief "About Me" section, a "Projects" section highlighting my previous work, 
 with all you need to get in touch with me. I've designed this web page with mobile formatting in mind,
 and you should see that the layout is responsive to any viewport!
 
+---
+
 [Live site](https://stevecarofano.github.io/Portfolio-SC/)
+
+---
 
 ## Table of Contents
 [| Usage |](#usage)
