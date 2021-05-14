@@ -95,6 +95,7 @@ h1 span {
 }
 
 .footer {
+    margin-top: 30px;
     padding: 5px 0 5px 0;
     text-align: center;
     color: var(--primary);
@@ -278,9 +279,46 @@ h1 span {
     margin: 0 10px 0 10px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .tabcontent {
-      width: 90%;
+        font-size: 15px;
+        line-height: 18px;
+        width: 90%;
+    }
+    
+    .portLinks p {
+        font-size: 10px;
+    }
+    .gmail img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .linkedIn img {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .gitContact img {
+        height: 95px;
+        width: 95px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .main-card {
+        height: 300px;
+    }
+
+    .main-card h2 {
+        font-size: 30px;
+    }
+
+    .aniFind img {
+        margin: 0 20px 0 5px;
     }
 }
 
