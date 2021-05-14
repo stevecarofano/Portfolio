@@ -14,9 +14,9 @@ and you should see that the layout is responsive to any viewport!
 ---
 
 ## Table of Contents
-[| Usage |](#usage)
-[| Credits |](#credits)
-[| License |](#license)
+* [| Usage |](#usage)
+* [| Credits |](#credits)
+* [| License |](#license)
 
 ## Usage
 
@@ -31,9 +31,9 @@ Check out my work, and send me an email to talk tech!
 
 
 ## Credits
-[w3Schools](https://www.w3schools.com)
-[w3schools flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
-[StackOverflow](https://www.stackoverflow.com)
+* [w3Schools](https://www.w3schools.com)
+* [w3schools flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+* [StackOverflow](https://www.stackoverflow.com)
 
 ## License 
 
