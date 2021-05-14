@@ -142,7 +142,7 @@ h1 span {
   .tabcontent {
     display: flex;
     flex-direction: row;
-    padding: 6px 12px;
+    padding: 6px 6px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -163,7 +163,7 @@ h1 span {
     background-color: var(--secondary);
     padding: 10px 10px 10px 10px;
     height: 100%;
-    width: 90%;
+    width: 91%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -172,6 +172,10 @@ h1 span {
     transform: scale(1.05);
     box-shadow: none;
       
+}
+
+.portLinks p {
+    text-align: center;
 }
 
 .portLinks a {
@@ -194,6 +198,10 @@ h1 span {
     font-weight: bold;
 }
 
+.tabcontent img {
+    margin: auto;
+}
+
 .tracker {
     display: flex;
     flex-direction: column;
@@ -207,6 +215,7 @@ h1 span {
 }
 
 .aniFind p {
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -285,6 +294,11 @@ h1 span {
         line-height: 18px;
         width: 90%;
     }
+
+    .portLinks img {
+        padding: 0;
+        
+    }
     
     .portLinks p {
         font-size: 10px;
@@ -317,10 +331,22 @@ h1 span {
         font-size: 30px;
     }
 
-    .aniFind img {
-        margin: 0 20px 0 5px;
+    .tabcontent img {
+        margin: auto;
+    }
+
+    .aniFind a {
+        font-size: 10px;
+    }
+
+    .tracker a {
+        font-size: 10px;
+    }
+    .scheduler a {
+        font-size: 10px;
     }
 }
+
 
 
 
