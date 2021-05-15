@@ -9,7 +9,7 @@ and you should see that the layout is responsive to any viewport!
 
 ---
 
-[Live site](https://stevecarofano.github.io/Portfolio-SC/)
+:earth_americas: [Live site](https://stevecarofano.github.io/Portfolio-SC/) :earth_americas:
 
 ---
 
