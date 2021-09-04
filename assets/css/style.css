@@ -306,7 +306,12 @@ h1 span {
     .tabcontent {
         font-size: 15px;
         line-height: 18px;
-        width: 90%;
+        width: 100%;
+    }
+
+    .portLinks {
+        display: flex;
+        flex-direction: column;
     }
 
     .portLinks img {
@@ -315,7 +320,8 @@ h1 span {
     }
     
     .portLinks p {
-        font-size: 10px;
+        font-size: 35px;
+        margin: 10px 0 10px 0;
     }
     .gmail img {
         height: 100px;
@@ -347,17 +353,12 @@ h1 span {
 
     .tabcontent img {
         margin: auto;
+        width: 100%;
     }
 
-    .aniFind a {
-        font-size: 10px;
-    }
-
-    .tracker a {
-        font-size: 10px;
-    }
-    .scheduler a {
-        font-size: 10px;
+    .portLinks a {
+        font-size: 20px;
+        margin: 3px 0 10px 0;
     }
 }
 
