@@ -23,7 +23,7 @@ and you should see that the layout is responsive to any viewport!
 Let's take a look at my portfolio and navigate around to see the features!
 
 Here is a quick gif to showcase the basic functionality:
-    ![demo](assets/images/demo-new.gif)
+    ![demo](assets/images/portfolio-demo-new.gif)
     
 You can see that when you hover over a given element it will grow to signify your selection and when you click, it will take you to that destination in a new tab, for your convenience.
 
