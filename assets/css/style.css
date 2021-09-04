@@ -132,18 +132,15 @@ h1 span {
     transition: 0.3s;
   }
   
-  
   .tab button:hover {
     color: black;
     background-color: #ddd;
   }
   
- 
   .tab button.active {
     color: black;
     background-color: var(--primary);
   }
-  
   
   .tabcontent {
     display: flex;
@@ -220,37 +217,12 @@ h1 span {
     font-weight: bold;
 }
 
-.aniFind p {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.aniFind a {
+.aniFind a, .empTracker a, .tracker a, .scheduler a {
     margin-top: 5px;
 }
 
-.empTracker p {
+.empTracker p, .tracker p, .scheduler p, .aniFind p {
     margin-bottom: 10px;
-}
-
-.empTracker a {
-    margin-top: 5px;
-}
-
-.tracker p {
-    margin-bottom: 10px;
-}
-
-.tracker a {
-    margin-top: 5px;
-}
-
-.scheduler p {
-    margin-bottom: 10px;
-}
-
-.scheduler a {
-    margin-top: 5px;
 }
 
 .gitContact a {
@@ -268,22 +240,12 @@ h1 span {
     transform: scale(1.1);
 }
 
-.linkedIn img {
+.linkedIn img, .gmail img {
     height: 130px;
     width: 130px;
 }
 
-.gmail img {
-    height: 130px;
-    width: 130px;
-}
-
-.gmail img:hover {
-    transition: transform .5s ease;
-    transform: scale(1.1);
-}
-
-.linkedIn img:hover {
+.gmail img:hover, .linkedIn img:hover {
     transition: transform .5s ease;
     transform: scale(1.1);
 }
