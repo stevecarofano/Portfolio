@@ -326,6 +326,16 @@ h1 span {
     header {
         display: inline-block;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gitContact img, .linkedIn img, .gmail img {
+        width: 50%;
+        height: 5%;
+    }
 }
 
 
